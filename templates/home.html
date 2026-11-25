@@ -1,0 +1,54 @@
+{% load static %}
+<html>
+<head>
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<h1>LITTLE LEMON</h1>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/menu/">Menu</a>
+    <a href="/administration/">Administration</a>
+    <a href="/contact/">Contact Us</a>
+</nav>
+
+<div class="banner">
+    <h2>30% Off This Weekend</h2>
+    <p>Enjoy delicious food with your family and friends!</p>
+</div>
+
+<div class="cards">
+
+    <div class="card">
+        <h2>Our New Menu</h2>
+        <img src="{% static 'menu.jpg' %}">
+        <p>Enjoy our delicious food items.</p>
+        <a href="/menu/">See our new menu</a>
+    </div>
+
+    <div class="card">
+        <h2>Book a Table</h2>
+        <img src="{% static 'food.jpg' %}">
+        <p>Book your table and enjoy our food.</p>
+        <a href="/contact/">Book now</a>
+    </div>
+
+    <div class="card">
+        <h2>Opening Hours</h2>
+        <img src="{% static 'chef.jpg' %}">
+        <p>Monday - Friday: 2pm - 10pm</p>
+        <p>Saturday: 2pm - 11pm</p>
+        <p>Sunday: 2pm - 9pm</p>
+    </div>
+
+</div>
+
+<footer>
+    Designed by MOHAMED HAFEEL J
+</footer>
+
+</body>
+</html>
